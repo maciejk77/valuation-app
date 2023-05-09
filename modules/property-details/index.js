@@ -31,7 +31,7 @@ const Detail = ({}) => {
     mortgage = account.associatedMortgages[0];
   }
 
-  // move these methods to helper and import here
+  // move these methods to helper and import here?
   const sincePurchase =
     account?.recentValuation.amount - account?.originalPurchasePrice;
 

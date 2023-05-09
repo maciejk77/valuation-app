@@ -3,6 +3,21 @@
 1. Valuation changes section added, styled as per mock up provided
 2. Fetching data from /api/account API endpoint implemented (previously static object mock)
 
+## Questions
+
+1. Given more time, what other changes you would have liked to make?
+
+Code-wise, keep state in context, create reusable useFetch hook for api with try/catch for larger app, here simple fetch should suffice
+Is there local state/store ie. Redux, ideally use of Redux Toolkit with React Query?
+Is there a need for app to be optimised for SEO, server side rendering with Next i.e getServerSideProps
+
+2. What UX or design improvements or alterations might you suggest? These can be to existing components or completely new ideas.
+
+Use of icons i.e. house, showing completion stage ie. how many more years as a percentage value to repay in full
+Use of graphs, chart libraries to visualise data i.e. Highcharts or similar
+Access to historical API data (i.e zoopla) to visualise how price has changed over time, slider to see YoY changes?
+Collapsible sections, to allow focus on one or couple/few selected
+
 ## Requirements
 
 **Required**: Add a "Valuation changes" section to the page. `design-mock-up.png` has been provided as a design reference for the page and `detail-design-mock-up.png` shows the specific feature to be added, including how it is styled responsively. Make use of existing fonts and styles to match the look and feel of the existing app rather than trying to match the mock up exactly.
