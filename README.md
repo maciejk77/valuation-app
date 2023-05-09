@@ -1,6 +1,7 @@
 ## My Notes
 
 1. Valuation changes section added, styled as per mock up provided
+2. Fetching data from /api/account API endpoint implemented (previously static object mock)
 
 ## Requirements
 
